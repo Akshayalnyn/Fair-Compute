@@ -1,13 +1,14 @@
 import requests
+import streamlit as st
 from PIL import Image
 from io import BytesIO
 
 # API endpoint URLs
-llava_url = "http://8.12.5.48:11434/api/generate"
-runwayml_url = "https://api-inference.huggingface.co/models/Adrenex/fastgen"
+llava_url = st.secrets["llava_url"]
+runwayml_url = st.secrets["runway_url"]
 
 # Your Hugging Face token for authentication
-hugging_face_token = "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"
+hugging_face_token = st.secrets["hf_token"]
 
 
 def generate_image_occasion(occasion, options, user_input, generate_sample):
