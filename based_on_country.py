@@ -1,10 +1,11 @@
 import requests
+import streamlit as st
 import time
 from PIL import Image
 from io import BytesIO
 
-llava_url = "http://8.12.5.48:11434/api/generate"
-hugging_face_token = "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"
+llava_url = st.secrets["llava_url"]
+hugging_face_token = st.secrets["hf_token"]
 
 
 def generate_country_suggestion(country_name, gender):
