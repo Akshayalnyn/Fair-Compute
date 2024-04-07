@@ -1,12 +1,13 @@
 import base64
 import os
 import requests
+import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-llava_url = "http://8.12.5.48:11434/api/generate"
-hugging_face_token = "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"
+llava_url = st.secrets["llava_url"]
+hugging_face_token = st.secrets["hf_token"]
 
 
 def preprocess_text(text):
