@@ -43,7 +43,7 @@ def generate_llava_description(image_data):
 
 def find_similar_image(uploaded_image):
     # Load existing descriptions from CSV
-    csv_file = os.getcwd() + "\\final_image_descriptions.csv"
+    csv_file = os.getcwd() + "/final_image_descriptions.csv"
     existing_descriptions_df = pd.read_csv(csv_file, encoding="utf-8")
 
     # Preprocess descriptions for similarity calculation
