@@ -77,7 +77,7 @@ inspiration to express your unique style effortlessly.
 
 ## Getting Started
 
-Please look at the project documentation that has details and screenshots of the web application- [PDF]([https://faircompute.com/](https://github.com/Akshayalnyn/Fair-Compute/blob/main/Faircompute%20submission.pdf))
+Please look at the project documentation that has details and screenshots of the web application- [[PDF](https://github.com/Akshayalnyn/Fair-Compute/blob/main/Faircompute%20submission.pdf)]([https://faircompute.com/](https://github.com/Akshayalnyn/Fair-Compute/blob/main/Faircompute%20submission.pdf))
 
 ### Prerequisites
 
