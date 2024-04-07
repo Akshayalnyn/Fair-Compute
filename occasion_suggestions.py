@@ -1,14 +1,14 @@
 import requests
 import base64
-
+import streamlit as st
 
 def get_occasion_suggestions(image_data):
     # API endpoint URL
-    url = "http://8.12.5.48:11434/api/generate"
+    url = st.secrets["llava_url"]
 
     # Your email and password for authentication
-    email = "akshayalnyn@gmail.com"
-    password = "akshu2001"
+    email = st.secrets["email"]
+    password = st.secrets["pwd"]
 
     # Payload data with an image encoded in base64 and a prompt for occasion suggestions
     payload = {
