@@ -29,8 +29,8 @@ def show():
 
         with col2:
             # Call suggest_improvements function
-            email = "akshayalnyn@gmail.com"
-            password = "akshu2001"
+            email = st.secrets["email"]
+            password = st.secrets["pwd"]
             suggestions = suggest_improvements(temp_file_path, email, password)
 
             # Display suggestions
