@@ -1,11 +1,12 @@
 import os
 import requests
 import base64
+import streamlit as st
 
 
 def suggest_improvements(image_path, email, password):
     # API endpoint URL
-    url = "http://8.12.5.48:11434/api/generate"
+    url = st.secrets["llava_url"]
 
     # Read and encode the image in base64
     with open(image_path, "rb") as image_file:
