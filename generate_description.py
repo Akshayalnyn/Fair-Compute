@@ -1,16 +1,17 @@
 import base64
 import requests
+import streamlit as st
 
 
 def generate_description(image_data):
     # Encode the image data in base64
     encoded_image = base64.b64encode(image_data).decode("utf-8")
 
-    url = "http://8.12.5.48:11434/api/generate"
+    url = st.secrets["llava_url"]
 
     # Authentication
-    email = "akshayalnyn@gmail.com"
-    password = "akshu2001"
+    email = st.secrets["email"]
+    password = st.secrets["pwd"]
 
     # Payload data with an image encoded in base64
     payload = {
