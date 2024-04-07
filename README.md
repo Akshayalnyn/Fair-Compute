@@ -70,6 +70,7 @@ Whether you're dressing for a special occasion, exploring global
 styles, or seeking the perfect Instagram caption, we've got you
 covered. Our goal is simple: to empower you with the tools and
 inspiration to express your unique style effortlessly.
+![image](https://github.com/Akshayalnyn/Fair-Compute/assets/65711425/4df263b2-f46d-4c66-92b5-aabd63301cc7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
