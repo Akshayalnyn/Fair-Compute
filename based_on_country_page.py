@@ -16,12 +16,14 @@ def show():
                 country_name, gender
             )
 
-        if llava_suggestion:
+        if llava_suggestion is not None:
             st.write(f"LLAVA Suggestion: {llava_suggestion}")
 
-        if generated_image:
+        if generated_image is not None:
             st.write("Generated Image:")
             st.image(generated_image, caption="Generated Fashion Style")
+
+    return country_name, gender
 
 
 if __name__ == "__main__":

@@ -5,6 +5,4 @@ streamlit
 matplotlib
 pillow
 diffusers
---upgrade protobuf>=3.19.0
---upgrade diffusers[torch]
 replicate
