@@ -77,8 +77,7 @@ inspiration to express your unique style effortlessly.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Please look at the project documentation that has details and screenshots of the web application- [PDF]([https://faircompute.com/](https://github.com/Akshayalnyn/Fair-Compute/blob/main/Faircompute%20submission.pdf))
 
 ### Prerequisites
 
@@ -105,6 +104,7 @@ Install all the required packages from requirement.txt file.
 ## Usage
 
 The features provided by SmartGlam are:
+
 Generate Description
 
 Suggest Improvements
